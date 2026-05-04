@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: haqqulovshamshod4-lgtm/48-maktab-uz
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "news"
+    label: "Yangiliklar"
+    folder: "news"
+    create: true
+    fields:
+      - { label: "Sarlavha", name: "title", widget: "string" }
+      - { label: "Matn", name: "body", widget: "markdown" }
